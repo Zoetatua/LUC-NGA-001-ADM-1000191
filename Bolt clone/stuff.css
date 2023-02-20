@@ -1,0 +1,226 @@
+.head{
+    background-color: whitesmoke;
+    height: 50px;
+    width: 100%;  
+}
+
+a{
+    text-decoration: none
+}
+li.lem {
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    padding: 2px;
+}
+body{
+    height: 80vh;
+    width: 100%;
+    background-image: url("./images/about/me-parallax.jpg")  ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+    outline: none;
+    margin: 10px;
+  }
+  
+.dropbtn {
+    padding: 12px 16px;
+    color: black;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.35s ease-out;
+  }
+  
+.dropdown .dropdown-content {
+    position: absolute;
+    top: 50%;
+    background-color: #f7f7f7;
+    min-width: 120%;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 100000;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.35s ease-out;
+  }
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    display: block;
+    text-decoration: none;
+    transition: 0.35s ease-out;
+  }
+.dropdown-content a:hover {
+    background-color: #eaeaea;
+  }
+  
+.dropdown:focus .dropdown-content {
+    outline: none;
+    transform: translateY(20px);
+    visibility: visible;
+    opacity: 1;
+  }
+.dropbtn:hover, .dropdown:focus .dropbtn {
+    background-color: gray;
+  }
+  
+.dropdown .db2 {
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0; opacity: 0;
+    cursor: pointer;
+    z-index: 10;
+    display: none;
+  }
+.dropdown:focus .db2 {
+    display: inline-block;
+  }
+.dropdown .db2:focus .dropdown-content {
+    outline: none;
+    visibility: hidden;
+    opacity: 0;
+  }
+
+.bold{
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 130px;
+}
+.gbold{
+    margin-top: 10px;
+    font-weight: bold;
+    color: green;
+}
+.next{
+    background-color: white;
+    height: 50px;
+    width: 100%; 
+    margin-left: 40px; 
+}
+
+.maine{
+    height: 160%;
+    display: flex;
+    justify-content: space-around
+}
+
+.first{
+    width: 50%;
+    background-color: #2EB875;
+    color: white;
+    display: inline-block;
+}
+
+.joey{    
+    
+    justify-items: center;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+.a{
+    font-size: 80px;
+    font-weight: bold;
+}
+.b{
+    font-size: 20px;
+}
+.c{
+    font-size: 20px;
+    font-weight: bold;
+}
+.box{
+    color: black;
+    font-weight: bolder;
+    border: black 0px solid;
+    background-color: white;
+    border-radius: 30px;
+    margin-right: 450px;
+    padding: 20px;
+}
+.second{
+    width: 50%;
+    background-image: url(./index-header.webp);
+    display: inline-block;
+}
+
+.another{
+    background-color: rgb(98, 113, 165);
+    height: 50%;
+}
+
+.crab{
+    margin-top: 60px;
+    color: white;
+    width:400px
+}
+.d{
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.e{
+    font-size: 20px;
+}
+.lab{
+    margin-top: 100px;
+}
+
+.f{
+    color: black;
+    font-weight: bolder;
+    border: black 0px solid;
+    background-color: white;
+    border-radius: 30px;
+    margin-right: 350px;
+    padding: 20px;
+}
+
+.able{
+    height: 70%;
+    background-color: aquamarine;
+}
+
+.salami{
+    margin-left: 80px;
+
+    width: 300px;
+}
+.siz{
+    max-width: 60px;
+    max-height: 70px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.gra{
+    font-size: 40px;
+}
+
+.sma{
+    font-size: 20px;
+}
+
+
+.alex{
+    background-color: lightgreen;
+    height: 80%;
+    width: 100%;
+    display: inline-block;
+}
+.steve{
+    margin-left: 200px;
+    margin-top: 100PX;
+}
+
+.gre{
+    background-color: green;
+    height: 80%;
+}
+
+.cen{
+    margin-top: 90px;
+}
